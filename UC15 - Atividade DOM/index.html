@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Interativo de Viagem</title>
+</head>
+<body>
+
+    <h1 id="titulo">Viagens de Luiz</h1>
+
+        <label for="cidade">Digite sua cidade de destino:</label>
+        <input type="text" id="cidade" placeholder="Ex: Natal">
+        <button id="btnMostrar" onclick="mostrarCidade()">Exibir Mensagem</button>
+        
+        <p id="mensagem">COLOQUE ALGO PRA APARECER NÉ PARCEIRO</p>
+        
+        <button id="botao" onclick="destacarMensagem()">Destacar Mensagem</button>
+
+        <h2>Dias de Viagem</h2>
+            <button id="btnMenus" onclick="diminuirContador()">-</button>
+            <span id="valorContador">10</span>
+            <button id="btnMais" onclick="aumentarContador()">+</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
